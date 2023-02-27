@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+    font-size: 50%;
+}
+
+*,*::before *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 2rem;
+    color: black;
+}
+ 
+
+ 
+h1,h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 0 5rem 0;
+ }
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contenido-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5rem;
+}
+
+.lista-proyectos {
+  display: flex;
+}
+
+.proyecto {
+    width: 300px;
+    margin: 20px;
+}
+.proyecto img {
+    width: 100%;
+}
+
+.datos-persona {
+    background-color:#fad390;
+    padding: 3rem;
+}
+
+.imagen {
+   
+    border-radius: 20rem;
+    padding: 10rem;
+    border: 2px solid white;
+    background-image: url(../imagen/dario-cv.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 13rem;
+
+}
+
+.gracias {
+font-style: oblique;
+font-size: 4rem;
+color: white;
+margin-top: 25rem;
+}
+
+.gracias.verde {
+    font-style: oblique;
+    font-size: 4rem;
+    color: green;
+    margin-top: 10rem;
+    }
+
+    #btn {
+        font-style: oblique;
+        margin-top: 10rem ;
+        border: blue solid 2px;
+        background-color: #fad390;
+    }
+
+    .link {
+        color:blue;
+    }
